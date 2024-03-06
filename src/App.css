@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  justify-content: center;
+  padding: 24px;
 }
 
 .App-logo {
@@ -28,11 +29,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signup-form {
+  justify-content: center;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.input-field {
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.input-field label {
+  padding-right: 8px;
 }
