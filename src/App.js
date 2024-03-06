@@ -12,8 +12,6 @@ function App() {
   );
 }
 
-export default App;
-
 const SignupForm = () => {
   const [email, setEmail] = React.useState('')
   const [password, setPassword] = React.useState('')
@@ -43,3 +41,5 @@ const SignupForm = () => {
 
   )
 }
+
+export default App;
