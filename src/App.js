@@ -30,7 +30,7 @@ const SignupForm = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
       <form onSubmit={handleSubmit} className='signup-form'>
-        <div className='input-field'> <label id="email">Username</label><input value={username} name='username' type='text' onChange={(e) => setUsername(e.target.value)} /></div>
+        <div className='input-field'> <label id="username">Username</label><input value={username} name='username' type='text' onChange={(e) => setUsername(e.target.value)} /></div>
         <div className='input-field'><label id="password">Password</label><input value={password} name='password' onChange={(e) => setPassword(e.target.value)} /></div>
         <div className='input-field'><label id="confirm-password">Confirm Password</label><input value={confirmPassword} name='confirm-password' onChange={(e) => setConfirmPassword(e.target.value)} /></div>
         <button type="submit">Submit</button>
